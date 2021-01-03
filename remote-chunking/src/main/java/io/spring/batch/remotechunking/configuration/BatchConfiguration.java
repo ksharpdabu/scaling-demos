@@ -59,6 +59,9 @@ import org.springframework.integration.dsl.IntegrationFlows;
 @Configuration
 public class BatchConfiguration {
 
+	/**
+	 *
+	 */
 	@Configuration
 	@Profile("!worker")
 	public static class MasterConfiguration {
@@ -160,6 +163,10 @@ public class BatchConfiguration {
 		}
 	}
 
+	/**
+	 *
+	 *
+	 */
 	@Configuration
 	@Profile("worker")
 	public static class WorkerConfiguration {

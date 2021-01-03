@@ -1,0 +1,1 @@
+先启动worker配置的spring boot， 再启动master配置的spring boot
